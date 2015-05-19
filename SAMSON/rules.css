@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div.container a {
+	text-align: right;
+}
+
+div.profiles {
+	line-height: 30px;
+	border: 5px outset #0066FF;
+	height: 300px;
+	float: left;
+	color: white;
+    background-color: #0000FF;
+}
+
+div.profiles ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.profiles a:link, a:visited {
+	display: block;
+	color: white;
+	font-weight: bold;
+    width: 245px;
+    background-color: #0000FF;
+	text-decoration: none;
+}
+
+div.profiles a:hover, a:link {
+    background-color: #000099;
+}
+
+div.section {
+    width:700px;
+    float:left;
+    padding:10px;	 	 
+}
